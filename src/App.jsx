@@ -10,7 +10,7 @@ import CountryDetails from "./components/CountryDetail";
 
 function App() {
   const [filterData, setFilterData] = useState("");
-  const [isDrak, setIsDark] = useState(JSON.parse(localStorage.getItem('data')))
+  const [isDrak, setIsDark] = useState(localStorage.getItem('data'))
   
   return (
     <>
